@@ -2,7 +2,7 @@
 
 This is just:
 > my save code from
-> when i type and **try** is out
+> when i type and **try** it out
 
 'cool'.
 
