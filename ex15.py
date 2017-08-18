@@ -16,7 +16,7 @@ print(f"Here's your file {filename}:")
 # once thx .txt is opened to mem-buffer from line 10
 # the txt.read() reads the mem-buffer and prints to screen
 print(txt.read())
-
+txt.close()
 # prompt for action...
 print("Type the filename again:")
 # and allocate the answer to 'input' in the variable 'file_again'
@@ -28,3 +28,4 @@ txt_again = open(file_again)
 
 # and then txt_again.read() is printed from mem-buffer to screen
 print(txt_again.read())
+txt_again.close()
